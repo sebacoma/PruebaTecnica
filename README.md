@@ -673,8 +673,6 @@ El seeder incluye 3 productos de ejemplo:
 
 ### Uso de Herramientas de IA
 Este proyecto fue desarrollado con asistencia de **GitHub Copilot** para:
-- ✅ Generación de boilerplate code y estructura inicial
-- ✅ Optimización de consultas y validaciones
 - ✅ Documentación completa y ejemplos de uso
 - ✅ Patrones de arquitectura y mejores prácticas
 - ✅ Manejo de errores y casos edge
