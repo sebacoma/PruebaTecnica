@@ -669,6 +669,45 @@ El seeder incluye 3 productos de ejemplo:
 - [x] **Logs estructurados**: Seguimiento de peticiones API
 - [x] **Manejo de errores**: Retry automático y error handling
 
+## 🎨 Frontend Complementario
+
+### 🚀 **Interfaz Web Disponible**
+
+Este proyecto incluye un **frontend moderno desarrollado en React + Vite** que consume toda la funcionalidad de esta API:
+
+**📂 Repositorio Frontend:** https://github.com/sebacoma/PruebaTecnicaFrontend
+
+### ✨ **Características del Frontend:**
+- ✅ **Dashboard interactivo** con navegación moderna
+- ✅ **CRUD de productos** con modales y validaciones
+- ✅ **Sistema de pedidos** completo e intuitivo
+- ✅ **Cotización de envíos** integrada
+- ✅ **Diseño responsive** para todos los dispositivos
+- ✅ **React Router** para navegación fluida
+
+### 🛠️ **Tecnologías Frontend:**
+- **React 18** + **Vite** para desarrollo rápido
+- **Axios** para consumo de API
+- **React Router** para navegación
+- **Heroicons** para iconografía
+- **CSS personalizado** sin frameworks pesados
+
+### 🚀 **Instalación Rápida del Frontend:**
+```bash
+git clone https://github.com/sebacoma/PruebaTecnicaFrontend.git
+cd PruebaTecnicaFrontend
+npm install && npm run dev
+```
+
+### 🔗 **Integración Completa:**
+El frontend está completamente integrado con esta API y permite:
+- Gestionar productos desde una interfaz amigable
+- Crear y visualizar pedidos con cálculos automáticos
+- Cotizar envíos con la API externa de Amplifica
+- Navegar entre todas las funcionalidades de forma intuitiva
+
+**💡 Nota:** El frontend es un **extra no requerido** en el test técnico, desarrollado para demostrar capacidades full-stack y ofrecer una experiencia completa del sistema.
+
 ## 🤝 Desarrollo y IA
 
 ### Uso de Herramientas de IA
