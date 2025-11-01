@@ -72,7 +72,7 @@ API REST desarrollada en Laravel 11 para la gestión de productos y pedidos, con
 
 git clone https://github.com/sebacoma/PruebaTecnica.git
 
-cd PruebaTecnicacd PruebaTecnica
+cd PruebaTecnica
 
 ``````
 
@@ -82,7 +82,7 @@ cd PruebaTecnicacd PruebaTecnica
 
 ```bash```bash
 
-cp .env.example .envcp .env.example .env
+cp .env.example .env
 
 ``````
 
@@ -92,7 +92,7 @@ cp .env.example .envcp .env.example .env
 
 ```bash```bash
 
-# Edita el archivo .env y cambia:# Edita el archivo .env y cambia:
+# Edita el archivo .env y cambia:
 
 AMPLIFICA_API_USER=tu_correo@ejemplo.com
 
