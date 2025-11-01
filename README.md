@@ -70,7 +70,7 @@ API REST desarrollada en Laravel 11 para la gestión de productos y pedidos, con
 
 ```bash```bash
 
-git clone https://github.com/sebacoma/PruebaTecnica.gitgit clone https://github.com/sebacoma/PruebaTecnica.git
+git clone https://github.com/sebacoma/PruebaTecnica.git
 
 cd PruebaTecnicacd PruebaTecnica
 
@@ -94,7 +94,7 @@ cp .env.example .envcp .env.example .env
 
 # Edita el archivo .env y cambia:# Edita el archivo .env y cambia:
 
-AMPLIFICA_API_USER=tu_correo@ejemplo.comAMPLIFICA_API_USER=tu_correo@ejemplo.com
+AMPLIFICA_API_USER=tu_correo@ejemplo.com
 
 ``````
 
@@ -104,7 +104,7 @@ AMPLIFICA_API_USER=tu_correo@ejemplo.comAMPLIFICA_API_USER=tu_correo@ejemplo.com
 
 ```bash```bash
 
-docker compose up --build -ddocker compose up --build -d
+ -ddocker compose up --build -d
 
 ``````
 
@@ -114,7 +114,7 @@ docker compose up --build -ddocker compose up --build -d
 
 ```bash```bash
 
-docker compose exec app composer installdocker compose exec app composer install
+docker compose exec app composer install
 
 ``````
 
@@ -124,7 +124,7 @@ docker compose exec app composer installdocker compose exec app composer install
 
 ```bash```bash
 
-docker compose exec app php artisan key:generatedocker compose exec app php artisan key:generate
+docker compose exec app php artisan key:generate
 
 ``````
 
@@ -134,7 +134,7 @@ docker compose exec app php artisan key:generatedocker compose exec app php arti
 
 ```bash```bash
 
-docker compose exec app php artisan migrate --seeddocker compose exec app php artisan migrate --seed
+docker compose exec app php artisan migrate --seed
 
 ``````
 
@@ -142,9 +142,9 @@ docker compose exec app php artisan migrate --seeddocker compose exec app php ar
 
 8. **Verificar que la API esté funcionando**8. **Verificar que la API esté funcionando**
 
-- API: http://localhost:8000- API: http://localhost:8000
+- API: http://localhost:8000
 
-- Test: http://localhost:8000/api/v1/products- Test: http://localhost:8000/api/v1/products
+- Test: http://localhost:8000/api/v1/products- 
 
 
 
@@ -160,7 +160,9 @@ docker compose exec app php artisan migrate --seeddocker compose exec app php ar
 
 - Redis
 
-- SQLite#### **Requerimientos Principales**- Git
+- SQLite####
+**Requerimientos Principales**
+- Git
 
 
 
@@ -172,7 +174,7 @@ docker compose exec app php artisan migrate --seeddocker compose exec app php ar
 
 ```bash
 
-git clone https://github.com/sebacoma/PruebaTecnica.git- ✅ **Cálculo automático**: El total del pedido se recalcula automáticamente
+git clone https://github.com/sebacoma/PruebaTecnica.git - ✅ **Cálculo automático**: El total del pedido se recalcula automáticamente
 
 cd PruebaTecnica
 
@@ -184,11 +186,12 @@ composer install- ✅ **Integración API Externa**: Consumo completo de la API d
 
 2. **Configurar entorno**
 
-```bashgit clone <repository-url>
 
 cp .env.example .env
 
-php artisan key:generate#### **Extras Implementados**cd amplifica-api
+php artisan key:generate####
+**Extras Implementados**
+cd amplifica-api
 
 ```
 
@@ -232,7 +235,9 @@ php artisan serve
 
 - **Docker**: `http://localhost:8000`
 
-- **Local**: `http://localhost:8000`### Opción 1: Con Docker (Recomendado)AMPLIFICA_API_PASS=12345
+- **Local**: `http://localhost:8000`
+### Opción 1: Con Docker (Recomendado)
+AMPLIFICA_API_PASS=12345
 
 
 
@@ -432,7 +437,7 @@ AMPLIFICA_API_PASS=12345- SQLite}
 
 1. **Verificar que la aplicación esté corriendo**
 
-```bash1. **Clonar e instalar dependencias**- `GET /api/v1/orders` - Listar pedidos
+```bash1. **Clonar e instalar dependencias** - `GET /api/v1/orders` - Listar pedidos
 
 curl http://localhost:8000/api/v1/products
 
@@ -440,7 +445,8 @@ curl http://localhost:8000/api/v1/products
 
 
 
-2. **Crear un producto**git clone [URL_DEL_REPOSITORIO]- `POST /api/v1/orders` - Crear pedido
+2. **Crear un producto**
+git clone [URL_DEL_REPOSITORIO]- `POST /api/v1/orders` - Crear pedido
 
 ```bash
 
